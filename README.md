@@ -11,8 +11,18 @@ Repository for installing Magento with a bash installation script.
 
 #### 1. git clone the repository.
 #### 2. sudo chmod 755 ./Magento_install.sh
+`sudo chmod 755 ./Magento_install.sh`
 #### 3. sudo -u $USER ./Magento_install.sh
+`sudo -u $USER ./Magento_install.sh`
 
 Easy guessable users and passwords are used, please check the script and change it in order to make it secure. The folder where Magento is installed in elegant, you can change it in order to make more accessible.
 
 Made by Guillermo Zaandam
+
+
+### Issues
+
+`SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost'`
+
+https://stackoverflow.com/questions/36864206/sqlstatehy000-1698-access-denied-for-user-rootlocalhost
+
