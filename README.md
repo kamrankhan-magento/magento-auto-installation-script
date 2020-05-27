@@ -10,6 +10,6 @@ Repository for installing Magento with a bash installation script.
 #### 2. sudo chmod 755 ./Magento_install.sh
 #### 3. sudo -u $USER ./Magento_install.sh
 
-Easy guessable users and passwords are used. Please check the Script and change it in order to make it secure.
+Easy guessable users and passwords are used. Please check the script and change it in order to make it secure.
 
 Made by Guillermo Zaandam
