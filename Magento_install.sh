@@ -79,22 +79,20 @@ _EOF_
 
 sudo mysql --user=root <<_EOF_
 CREATE DATABASE magento;
-CREATE USER 'mageplaza'@'localhost' IDENTIFIED BY 'Welkom09!';
-GRANT ALL ON magento.* TO 'mageplaza'@'localhost' IDENTIFIED BY 'Welkom09!' WITH GRANT OPTION;
+CREATE USER 'guillermo'@'localhost' IDENTIFIED BY 'Welkom09!';
+GRANT ALL ON magento.* TO 'guillermo'@'localhost' IDENTIFIED BY 'Welkom09!' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 _EOF_
 
 # Download and install composer
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 
-#sudo mkdir /var/www/html/magento
-
 wget https://github.com/magento/magento2/archive/2.3.5-p1.tar.gz
 sudo tar -xzvf 2.3.5-p1.tar.gz -C /var/www/html/
 
-sudo chown -R $USER:www-data /var/www/html/magento2-2.3.5-p1/
+sudo chown -R $USER:www-data /var/www/html/
 sudo chmod -R 755 /var/www/html/magento2-2.3.5-p1
-sudo -u $USER composer install -d /var/www/html/magento2-2.3.5-p1/
-sudo chown -R www-data:www-data /var/www/html/magento2-2.3.5-p1/
+sudo -u $USER composer install -d /var/www/html/magento2-2.3.5-p1
+sudo chown -R www-data:www-data /var/www/html/
 
 sudo systemctl restart apache2.service
