@@ -15,4 +15,4 @@ Easy guessable users and passwords are used, please check the script and change 
 
 Made by Guillermo Zaandam
 
-[![Screenshot-2020-05-27-Readiness-Check.png](https://i.postimg.cc/dtBfpYbm/Screenshot-2020-05-27-Readiness-Check.png)](https://postimg.cc/kB2wRkXB)
+[![Peek-2020-05-27-16-07.gif](https://i.postimg.cc/9fDRsyfP/Peek-2020-05-27-16-07.gif)](https://postimg.cc/v1dZVgfD)
