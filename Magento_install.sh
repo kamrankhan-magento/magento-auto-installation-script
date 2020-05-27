@@ -96,3 +96,4 @@ sudo -u $USER composer install -d /var/www/html/magento2-2.3.5-p1
 sudo chown -R www-data:www-data /var/www/html/
 
 sudo systemctl restart apache2.service
+
