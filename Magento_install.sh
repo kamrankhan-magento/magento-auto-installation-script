@@ -1,5 +1,7 @@
 #!/bin/bash
 
+## Example command for using this installation script: sudo -u $USER ./Magento_install.sh
+
 # Updating and upgrading server
 sudo apt-get -y update
 sudo apt-get -y upgrade
