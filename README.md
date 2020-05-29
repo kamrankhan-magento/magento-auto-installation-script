@@ -21,6 +21,10 @@ Repository for installing Magento with a bash installation script.
 #### Navigate in your browser to:
 `http://192.168.121.124/magento2-2.3.5-p1`
 
+## In the webbrowser
+
+Check the following lines.
+
 #### "Add a Database"
 
 Database Server Host: `localhost`
